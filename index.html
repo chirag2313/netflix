@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <style>
+        body{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-image: url(netflix2.jpg);
+background-size:cover;
+background-position: center;
+height: 100vh;
+color:white ;
+position: relative;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    padding:10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo .log{
+    margin-left: 140px;
+}
+.lang{
+    display: flex;
+    gap: 5px;
+    margin-right: 200px;
+    border: 1px;
+        
+}
+select{
+    border-radius: 4px;
+    font-size: 15px;  
+    cursor: pointer;
+    font-size: 20px;
+    width: 120px;
+    height: 32px;
+    font-weight: bold;
+}
+.first{
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.center-content{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+.center-content h1{
+font-weight: bold;
+}
+.center-content p{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.email{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.email input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.email .start{
+    width: 200px;
+    height: 42px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size:22px ;
+    cursor: pointer;
+}
+.made{
+    margin-left: 10px;
+    font-size: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="logo">
+        <h1 class="log"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"  alt="Netflix Logo" width="150px" height="50px"></h1>
+<div class="lang">   
+     <select name="English" >
+        <option value="English">English</option>
+        <option value="हिन्दी">हिन्दी</option>
+    </select>
+    <button class="first" >Sign in</button>
+</div>
+    </div>
+    <div class="center-content">
+        <h1>Unlimited movies, TV<br> shows and more
+</h1>
+<p >
+Starts at ₹149. Cancel at any time.
+</p>
+<p>Ready to watch? Enter your email to create or restart your membership.
+</p>
+<div class="email">
+    <input type="email" placeholder="Email address">
+    <button class="start">Get Started ></button>
+</div>
+    </div>
+    </div>
+    <div class="made"><h1>Made by Chirag 08(crd)</h1></div>
+</body>
+</html>
